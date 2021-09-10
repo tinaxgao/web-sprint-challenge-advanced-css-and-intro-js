@@ -132,16 +132,33 @@ button:hover{
     text-align:center;
 }
 
-@media (max-width: 1080px) {
+.artist img{
+    width:100%;
+}
+
+/* TINA ADDITIONS */
+@media (max-width: 500px) {
+    h1{
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+    nav{
+        width:60%;
+    }
+    .title-container div {
+        height: 30vh;
+        background-size:cover;
+    }
     .artists-container {
-        flex-direction: column;
+        flex-direction: column; /* wrap artist into into a column at mobile width */
     }
     .artist {
         width: 80%;
         margin: auto;
     }
-}
-
-.artist img{
-    width:100%;
+    .artist img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
