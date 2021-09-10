@@ -131,6 +131,17 @@ button:hover{
     width:40%;
     text-align:center;
 }
+
+@media (max-width: 1080px) {
+    .artists-container {
+        flex-direction: column;
+    }
+    .artist {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 .artist img{
     width:100%;
 }
